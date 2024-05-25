@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PocketReferenceBook.Views.Page03"
+             Title="Page03">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Image Source="page04.png" Aspect="AspectFill"/>
+            <Image Source="page05.png" Aspect="AspectFill"/>
+            <Image Source="page06.png" Aspect="AspectFill"/>
+            <Image Source="page07.png" Aspect="AspectFill"/>
+            <Image Source="page08.png" Aspect="AspectFill"/>
+            <Image Source="page09.png" Aspect="AspectFill"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

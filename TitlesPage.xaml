@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PocketReferenceBook.TitlesPage"
+             Title="TitlesPage">
+    <ScrollView>
+        <StackLayout Padding="10" x:Name="TitlesStackLayout">
+            <Button Text="Standard Drill Size Conversions" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Standard Thread Forms" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Tapping Drill Sizes For Fluteless Taps" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Thread Notation" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Metric Screw and Hole Sizes" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Tensile Strength and Hardness" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Material Groups" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Cutting Speed Calculator" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Basic Forms Of Heat Treatment" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Lubricant Selection" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Standards For Engineering Drawings" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Common Abbreviations Used In Engineering Drawings" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Hole And Shaft Tolerances" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Common CNC Control Codes" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Axis Nomenclature For Machine Tools" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Screwed and Weldon Shank Dimensions" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Morse Taper Shank Dimensions" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="DIN, BT and ISO Shank Dimensions" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Co-Ordinates For Equally Pitched Holes" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Table Of Chords" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Trigonometry Formulae" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Malleable Material Bending Allowances" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Sines and Cosines" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Tangents and Cotangents" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Abbreviations and Formulae" FontSize="Large" Clicked="OnButtonClicked" />
+            <Button Text="Weights And Measures Systems" FontSize="Large" Clicked="OnButtonClicked" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
